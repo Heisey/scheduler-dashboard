@@ -21,7 +21,9 @@ body {
 .loading,
 .dashboard {
   display: grid;
-  min-height: 100vh;
+  min-height: 99.5vh;
+  max-height: 100vh;
+  min-width: 99.5vw;
   justify-items: center;
   align-items: center;
 }
